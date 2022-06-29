@@ -1,0 +1,13 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+	@apply bg-gray-200 p-2 rounded-md uppercase font-bold;
+	cursor: pointer;
+}
+
+.pending {
+	opacity: 0.5;
+}
